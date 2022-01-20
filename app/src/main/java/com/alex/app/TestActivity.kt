@@ -3,6 +3,7 @@ package com.alex.app
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.alex.app.algorithm.Balance
+import com.alex.app.algorithm.DiagonalDifference
 import com.alex.app.databinding.ActivityTestBinding
 
 class TestActivity : AppCompatActivity() {
@@ -21,6 +22,8 @@ class TestActivity : AppCompatActivity() {
             val outcome = Balance.isBalanced(input)
             binding.tvOutput.text = outcome
         }
+
+        KTest.staircase(10)
 
     }
 }
