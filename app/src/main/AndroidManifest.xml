@@ -22,6 +22,7 @@
         </activity>
         <activity android:name=".service.AidlDemoActivity" />
         <activity android:name=".jni.JNIDemoActivity" />
+        <activity android:name=".TestActivity" />
 
         <service
             android:name=".service.MyAidlService"

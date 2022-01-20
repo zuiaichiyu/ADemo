@@ -49,6 +49,12 @@ class FirstFragment : Fragment() {
                 startActivity(it)
             }
         }
+
+        binding.btTest.setOnClickListener {
+            Intent(this.requireContext(), TestActivity::class.java).also {
+                startActivity(it)
+            }
+        }
     }
 
     override fun onDestroyView() {

@@ -1,6 +1,7 @@
 package com.alex.app
 
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +9,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.alex.app.algorithm.Balance
 import com.alex.app.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
 
