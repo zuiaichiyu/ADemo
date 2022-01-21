@@ -23,7 +23,7 @@ class TestActivity : AppCompatActivity() {
             binding.tvOutput.text = outcome
         }
 
-        KTest.staircase(10)
+        KTest.test()
 
     }
 }
