@@ -2,6 +2,12 @@ package com.alex.app.algorithm
 
 object CompareTriplets {
 
+
+    fun test() {
+
+    }
+
+
     /**
      * Complete the 'compareTriplets' function below.
      *

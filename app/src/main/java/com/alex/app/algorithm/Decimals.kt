@@ -4,6 +4,10 @@ import java.util.*
 
 object Decimals {
 
+    fun test() {
+        plusMinus(arrayOf(1, 2, 23, 5, -1, -2, 0, 2, 0, -2))
+    }
+
     fun plusMinus(arr: Array<Int>): Unit {
         // Write your code here
 

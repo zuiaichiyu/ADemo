@@ -6,6 +6,12 @@ package com.alex.app.algorithm
  */
 object DiagonalDifference {
 
+
+    fun test(){
+
+    }
+
+
     /**
      * 1 2 3 4
      * 4 5 6 5
