@@ -23,6 +23,6 @@ class TestActivity : AppCompatActivity() {
         }
 
         KTest.test()
-
+        Test.test()
     }
 }

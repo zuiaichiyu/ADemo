@@ -1,53 +1,29 @@
 package com.alex.app
 
-import android.util.Log
-import com.alex.app.algorithm.Balance
-import com.alex.app.algorithm.Decimals
-import com.alex.app.algorithm.DiagonalDifference
-import com.alex.app.algorithm.Pop
+import com.alex.app.algorithm.*
 
 
 object KTest {
 
     fun test() {
-        mixType()
         Pop.test()
         Decimals.test()
         DiagonalDifference.test()
         Balance.isBalanced("{}{}{}()()}")
+        MinMaxSum.miniMaxSum(arrayOf(6, 7, 1, 4, 8))
+        System.out.println(TimeFormat.timeConversion("12:01:00AM"))
+        CountFrequency.countingSort(arrayOf(1, 2, 4, 1, 4, 3)).forEach {
+            System.out.println(it)
+        }
+
+        val a1 = arrayOf(1, 23, 5, 6)
+        val a2 = arrayOf(11, 2, 4, 61)
+        val a3 = arrayOf(11, 13, 25, 26)
+        val a4 = arrayOf(15, 73, 58, 60)
+        NoPrefix.flippingMatrix(arrayOf(a1, a2, a3, a4))
+        TowerBreaker.towerBreakers(3, 7)
+        NoPrefix.noPrefix(arrayOf("aab", "defgab", "abcde", "aabcde", "bbbbbbbbbb", "jabjjjad"))
     }
 
 
-    fun mixType() {
-        val a = 0x000F
-        val b = 0x2222
-
-        Log.d("Test", "--> a&b=${a.and(b)}")
-
-        val c = 1
-        val b1 = c.toByte()
-        val f = c.toFloat()
-        val d = c.toDouble()
-        val result = b1 + f + d
-        Log.d("Test", "--> int+float+double=$result")
-
-        // print  -->  test in B
-        C().test()
-    }
-}
-
-
-interface A {
-    fun test()
-}
-
-open class B {
-
-    fun test() {
-        Log.d("Test", "--> test in B")
-    }
-}
-
-
-class C : B(), A {
 }

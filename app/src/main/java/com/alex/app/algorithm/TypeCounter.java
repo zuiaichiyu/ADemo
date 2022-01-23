@@ -1,4 +1,4 @@
-package com.alex.app;
+package com.alex.app.algorithm;
 
 public class TypeCounter {
 
