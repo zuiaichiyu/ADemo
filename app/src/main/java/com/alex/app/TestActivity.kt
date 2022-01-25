@@ -7,6 +7,10 @@ import com.alex.app.databinding.ActivityTestBinding
 
 class TestActivity : AppCompatActivity() {
 
+    override fun onRestart() {
+        super.onRestart()
+    }
+
     private lateinit var binding: ActivityTestBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
